@@ -11,8 +11,8 @@ IRDate ir;//or IRDate ir(time zone , DaylightSavingTime ON or OFF)
 TM1637Display display(CLK, DIO);
 
 
-const char *ssid     = "reza";
-const char *password = "@pi#3.14!!";
+const char *ssid     = "**********";
+const char *password = "**********";
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "europe.pool.ntp.org",0, 60000);
