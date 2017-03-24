@@ -1,8 +1,9 @@
 
 #include <Wire.h>
 #include <RTClib.h>
-#include "IRDate.h"
+#include <IRDate.h>
 #define TIMEZONE +4.5 //because the now date is 1396/01/02 and My computer is the time difference with utc 4.5 hours
+IRDate ir;
 RTC_DS1307 RTC;
 void setup () {
 //Wire.begin();       //for arduino uno,nano
