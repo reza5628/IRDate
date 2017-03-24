@@ -1,7 +1,7 @@
 
-#include "IRDate.h"
+#include <IRDate.h>
 IRDate ir(IR,DLST_ON);//(time zone , DaylightSavingTime ON or OFF)
-
+//IRDate ir; //time zone=3.5 ,DaylightSavingTime-->ON
 
 void setup(){
   Serial.begin(115200);
