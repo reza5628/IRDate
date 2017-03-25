@@ -1,8 +1,7 @@
 # IRDate
 convet epoch time to jalali time and date.
 
-#include <IRDate>
-IRDate ir   or  IRDate(time zone , DLTS_ON/SLTS_OFF) DTLS->DayLightTimeSaving
+IRDate ir   or  IRDate ir(time zone , DLTS_ON/SLTS_OFF) DTLS->DayLightTimeSaving
 
 int second=second(unix time); 
 
