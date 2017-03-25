@@ -23,7 +23,7 @@ String time=timeFormat(unix time);
 
 String date=dateFormat(unix time);
 
-
+-------------------------------------------------------
 convert jalali date to unix time :
 
 unix=jalaliToEpoch("1395/02/02","20:30:00");
