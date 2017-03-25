@@ -1,2 +1,2 @@
 # IRDate
-convet epoch time to jalali time and date
+convet epoch time to jalali time and date.
